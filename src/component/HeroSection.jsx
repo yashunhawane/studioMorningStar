@@ -5,7 +5,7 @@ const HeroSection = () => {
     return (
         <div className="flex flex-col items-center mt-5 lg:mt-15">
             <h1 className="text-5xl sm:text-7xl lg:text-8xl text-center tracking-wide bg-gradient-to-r from-[#e51182] to-[#e282b5] text-transparent bg-clip-text">
-                The Morning Star Studio
+                The Morning Star Production House
             </h1>
 
             <p className="mt-10 text-lg text-center text-neutral-500 max-w-4xl">
