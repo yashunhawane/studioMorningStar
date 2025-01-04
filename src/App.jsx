@@ -1,3 +1,4 @@
+import OurWork from "./component/ OurWork"
 import About from "./component/About"
 import CarouselGames from "./component/CarouselGames"
 import EventSection from "./component/EventSection"
@@ -16,11 +17,12 @@ function App() {
       <NavBar />
       <HeroSection />
       <Intro />
+      <OurWork />
       <FilmProductionSection />
       <WeddingSection />
       <EventSection />
       <About />
-      <CarouselGames/>
+      <CarouselGames />
     </>
   )
 }
