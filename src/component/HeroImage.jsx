@@ -40,10 +40,10 @@ const HeroImage = () => {
             <div className="absolute inset-0 bg-black opacity-40"></div>
 
             {/* Content inside the hero section */}
-            {/* <div className="relative z-10 flex flex-col justify-center items-center text-white text-center h-full px-4 md:px-8">
-                <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-4">Welcome to Our Website</h1>
-                <p className="text-lg sm:text-xl md:text-2xl">Discover the best products and services tailored for you.</p>
-                <button className="mt-6 px-8 py-3 bg-blue-600 text-lg rounded-full shadow-md hover:bg-blue-700 transition duration-300">
+            {/* <div className="relative z-10 flex flex-col justify-center items-center text-white text-center h-full px-4 sm:px-8">
+                <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4">Welcome to Our Website</h1>
+                <p className="text-base sm:text-lg md:text-xl lg:text-2xl mb-6">Discover the best products and services tailored for you.</p>
+                <button className="mt-6 px-6 py-3 bg-blue-600 text-lg rounded-full shadow-md hover:bg-blue-700 transition duration-300">
                     Get Started
                 </button>
             </div> */}
