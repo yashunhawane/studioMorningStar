@@ -1,4 +1,5 @@
 import OurWork from "./component/ OurWork"
+import HeroImage from "./component/HeroImage"
 // import About from "./component/About"
 // import CarouselGames from "./component/CarouselGames"
 // import EventSection from "./component/EventSection"
@@ -15,6 +16,7 @@ function App() {
   return (
     <>
       <NavBar />
+      <HeroImage />
       <HeroSection />
       <Intro />
       <OurWork />
