@@ -1,4 +1,4 @@
-import about from "../assets/about.png"
+import about from "/home/dell/Desktop/DEV/Studio/new/morningStar/morningstar/public/assets/about.png"
 
 const Intro = () => {
     return (
@@ -25,7 +25,7 @@ const Intro = () => {
                 {/* Image Section */}
                 <div className="w-full md:w-1/2 lg:w-1/3 xl:w-1/3">
                     <img
-                    
+
                         src={about}
                         alt="Wedding Dance"
                         className="object-cover rounded-lg shadow-lg h-auto w-full border border-[#e51182]  shadow-[#9c0c58]"

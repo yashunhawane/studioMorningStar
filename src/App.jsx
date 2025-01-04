@@ -1,12 +1,12 @@
 import OurWork from "./component/ OurWork"
-import About from "./component/About"
-import CarouselGames from "./component/CarouselGames"
-import EventSection from "./component/EventSection"
-import FilmProductionSection from "./component/FilmProductionSection"
+// import About from "./component/About"
+// import CarouselGames from "./component/CarouselGames"
+// import EventSection from "./component/EventSection"
+// import FilmProductionSection from "./component/FilmProductionSection"
 import HeroSection from "./component/HeroSection"
 import Intro from "./component/Intro"
 import NavBar from "./component/NavBar"
-import WeddingSection from "./component/WeddingSection"
+// import WeddingSection from "./component/WeddingSection"
 
 
 function App() {
@@ -18,11 +18,11 @@ function App() {
       <HeroSection />
       <Intro />
       <OurWork />
-      <FilmProductionSection />
-      <WeddingSection />
-      <EventSection />
-      <About />
-      <CarouselGames />
+      {/* <FilmProductionSection /> */}
+      {/* <WeddingSection /> */}
+      {/* <EventSection /> */}
+      {/* <About /> */}
+      {/* <CarouselGames /> */}
     </>
   )
 }

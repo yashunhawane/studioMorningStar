@@ -1,4 +1,4 @@
-import logo from "../assets/logo4.png"
+import logo from '/home/dell/Desktop/DEV/Studio/new/morningStar/morningstar/public/assets/logo4.png'
 
 const NavBar = () => {
   return (
