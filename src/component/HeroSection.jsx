@@ -1,5 +1,5 @@
-import video from "/home/dell/Desktop/DEV/Studio/new/morningStar/morningstar/public/assets/video.mp4";
-import video3 from "/home/dell/Desktop/DEV/Studio/new/morningStar/morningstar/public/assets/video3.mp4";
+import video from "/assets/video.mp4";
+import video3 from "/assets/video3.mp4";
 
 const HeroSection = () => {
     return (

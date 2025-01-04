@@ -1,4 +1,4 @@
-import image from "/home/dell/Desktop/DEV/Studio/new/morningStar/morningstar/public/assets/image4.jpeg";
+import image from "/assets/image4.jpeg";
 
 const OurWork = () => {
     return (
