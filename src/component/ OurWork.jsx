@@ -1,4 +1,3 @@
-import image from "/assets/image4.jpeg";
 
 const OurWork = () => {
     return (
@@ -13,7 +12,7 @@ const OurWork = () => {
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
                     <div className="relative group">
                         <img
-                            src={image}
+                            src="/assets/image4.jpeg"
                             alt="Event 1"
                             className="w-full h-full object-cover rounded-lg shadow-lg"
                         />
@@ -25,7 +24,7 @@ const OurWork = () => {
                     </div>
                     <div className="relative group">
                         <img
-                            src={image}
+                            src="/assets/image4.jpeg"
                             alt="Event 2"
                             className="w-full h-full object-cover rounded-lg shadow-lg"
                         />
@@ -37,7 +36,7 @@ const OurWork = () => {
                     </div>
                     <div className="relative group">
                         <img
-                            src={image}
+                            src="/assets/image4.jpeg"
                             alt="Event 3"
                             className="w-full h-full object-cover rounded-lg shadow-lg"
                         />
@@ -49,7 +48,7 @@ const OurWork = () => {
                     </div>
                     <div className="relative group">
                         <img
-                            src={image}
+                            src="/assets/image4.jpeg"
                             alt="Event 4"
                             className="w-full h-full object-cover rounded-lg shadow-lg"
                         />
@@ -61,7 +60,7 @@ const OurWork = () => {
                     </div>
                     <div className="relative group">
                         <img
-                            src={image}
+                            src="/assets/image4.jpeg"
                             alt="Event 5"
                             className="w-full h-full object-cover rounded-lg shadow-lg"
                         />
@@ -73,7 +72,7 @@ const OurWork = () => {
                     </div>
                     <div className="relative group">
                         <img
-                            src={image}
+                            src="/assets/image4.jpeg"
                             alt="Event 6"
                             className="w-full h-full object-cover rounded-lg shadow-lg"
                         />

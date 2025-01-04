@@ -1,11 +1,11 @@
-import logo from '/assets/logo4.png'
+
 
 const NavBar = () => {
   return (
     <nav className="flex justify-between items-center py-4 mb-4 lg:py-6">
       <div className="flex items-center">
         <img
-          src={logo}
+          src='/assets/logo4.png'
           alt="The Morning Star Studio Logo"
           className="h-20 sm:h-22 lg:h-24"
         />
