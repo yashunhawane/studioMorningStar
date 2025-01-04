@@ -1,35 +1,22 @@
-
 const HeroSection = () => {
     return (
-        <div className="flex flex-col items-center mt-5 lg:mt-15">
-            <h1 className="text-5xl sm:text-7xl lg:text-8xl text-center tracking-wide bg-gradient-to-r from-[#efb40d] to-[#f02a93] text-transparent bg-clip-text">
-                The Morning Star Entertainment
+        <div className="relative flex flex-col items-center mt-20 lg:mt-32 px-4 sm:px-8 z-10">
+            {/* Heading */}
+            <h1 className="text-5xl sm:text-7xl lg:text-8xl text-center tracking-wide bg-gradient-to-r from-[#efb40d] to-[#f02a93] text-transparent bg-clip-text font-extrabold shadow-md drop-shadow-lg">
+                THE MORNING STAR ENTERTENTMENT
             </h1>
 
-            <p className="mt-10 text-lg text-center text-neutral-500 max-w-4xl">
+            {/* Paragraph */}
+            <p className="mt-8 sm:mt-10 text-lg sm:text-xl lg:text-2xl text-center text-white max-w-3xl sm:max-w-4xl px-6 lg:px-0 leading-relaxed">
                 We transform ideas into visual masterpieces. With a passion for storytelling and a dedication to excellence, we bring your vision to life through the power of film and video production.
             </p>
 
-            <div className="flex mt-10 mr-4 ml-4 px-4 justify-center">
-                <video
-                    autoPlay
-                    loop
-                    muted
-                    className="rounded-lg w-full md:w-1/3 lg:w-1/3 xl:w-1/3 border border-[#e51182] shadow-sm shadow-[#9c0c58] mx-2 my-4"
-                >
-                    <source src="/assets/video.mp4" type="video/mp4" />
-                    Your browser does not support the video tag.
-                </video>
-                <video
-                    autoPlay
-                    loop
-                    muted
-                    className="rounded-lg w-full md:w-1/3 lg:w-1/3 xl:w-1/3 border border-[#e51182] shadow-sm shadow-[#9c0c58] mx-2 my-4"
-                >
-                    <source src="/assets/video.mp4" type="video/mp4" />
-                    Your browser does not support the video tag.
-                </video>
-            </div>
+            {/* Optional Call-to-Action Button */}
+            {/* <div className="mt-12">
+                <button className="px-8 py-4 bg-gradient-to-r from-[#f02a93] to-[#efb40d] text-white text-lg rounded-full shadow-xl hover:bg-[#f02a93] hover:scale-105 transition-all duration-300">
+                    Learn More
+                </button>
+            </div> */}
         </div>
     );
 };
