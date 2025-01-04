@@ -18,8 +18,8 @@ function App() {
       <NavBar />
       <HeroImage />
       <HeroSection />
-      <Intro />
       <OurWork />
+      <Intro />
       {/* <FilmProductionSection /> */}
       {/* <WeddingSection /> */}
       {/* <EventSection /> */}

@@ -1,7 +1,7 @@
 
 const OurWork = () => {
     return (
-        <section className="py-10">
+        <section id="work" className="py-10">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <h2 className="text-5xl sm:text-7xl lg:text-8xl text-center tracking-wide bg-gradient-to-r from-[#efb40d] to-[#f02a93] text-transparent bg-clip-text mb-6">
                     Our Work
